@@ -18,3 +18,8 @@ Usage: rs-port-scanner [ip]
 
 Example: rs-port-scanner 127.0.0.1
 ```
+
+## Uninstallation
+```console
+$ cargo uninstall rs-port-scanner
+```
