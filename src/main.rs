@@ -6,6 +6,7 @@ fn main() {
     let args: Vec<String> = env::args().collect();
     let ip_string: &String = &args[1];
 
+    println!("Pinging!");
     let ip: IpAddr = ip_string.parse().expect("Valid IP Address");
     for port in 1..=65535 {
         let conn: SocketAddr = SocketAddr::new(ip, port);
